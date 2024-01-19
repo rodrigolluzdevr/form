@@ -1,0 +1,244 @@
+CRITICAL - 2024-01-18 17:28:21 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/upload" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 489.
+ 1 SYSTEMPATH/Helpers/url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/form_message.php(13): url_to()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/form/app/Views/form_message.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Main.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:28:25 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/upload" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 489.
+ 1 SYSTEMPATH/Helpers/url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/form_message.php(13): url_to()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/form/app/Views/form_message.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Main.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:45:15 --> ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 958.
+ 1 SYSTEMPATH/Validation/Validation.php(958): strpos()
+ 2 SYSTEMPATH/Validation/Validation.php(599): CodeIgniter\Validation\Validation->splitRules()
+ 3 SYSTEMPATH/Controller.php(196): CodeIgniter\Validation\Validation->setRules()
+ 4 SYSTEMPATH/Controller.php(150): CodeIgniter\Controller->setValidator()
+ 5 APPPATH/Controllers/Upload.php(11): CodeIgniter\Controller->validate()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:46:08 --> ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 958.
+ 1 SYSTEMPATH/Validation/Validation.php(958): strpos()
+ 2 SYSTEMPATH/Validation/Validation.php(599): CodeIgniter\Validation\Validation->splitRules()
+ 3 SYSTEMPATH/Controller.php(196): CodeIgniter\Validation\Validation->setRules()
+ 4 SYSTEMPATH/Controller.php(150): CodeIgniter\Controller->setValidator()
+ 5 APPPATH/Controllers/Upload.php(11): CodeIgniter\Controller->validate()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:46:21 --> ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 958.
+ 1 SYSTEMPATH/Validation/Validation.php(958): strpos()
+ 2 SYSTEMPATH/Validation/Validation.php(599): CodeIgniter\Validation\Validation->splitRules()
+ 3 SYSTEMPATH/Controller.php(196): CodeIgniter\Validation\Validation->setRules()
+ 4 SYSTEMPATH/Controller.php(150): CodeIgniter\Controller->setValidator()
+ 5 APPPATH/Controllers/Upload.php(11): CodeIgniter\Controller->validate()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:47:03 --> Error: Class "App\Controllers\File" not found
+in APPPATH/Controllers/Upload.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:47:06 --> Error: Class "App\Controllers\File" not found
+in APPPATH/Controllers/Upload.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:52:00 --> ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 958.
+ 1 SYSTEMPATH/Validation/Validation.php(958): strpos()
+ 2 SYSTEMPATH/Validation/Validation.php(599): CodeIgniter\Validation\Validation->splitRules()
+ 3 SYSTEMPATH/Controller.php(196): CodeIgniter\Validation\Validation->setRules()
+ 4 SYSTEMPATH/Controller.php(150): CodeIgniter\Controller->setValidator()
+ 5 APPPATH/Controllers/Upload.php(13): CodeIgniter\Controller->validate()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:58:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(40): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 17:59:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(39): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:05:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(39): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:08:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "main" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 62.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 APPPATH/Controllers/Upload.php(27): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:09:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_success.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(39): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:24:01 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/Upload.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:24:10 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/Upload.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:27:30 --> Error: Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getRadomName()
+in APPPATH/Controllers/Upload.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:28:07 --> Error: Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getRadomName()
+in APPPATH/Controllers/Upload.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:30:55 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php3gGiwF" to "/var/www/html/form/writable/uploads/../../public/assets/img/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(36): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:33:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpuMuzGP" to "/var/www/html/form/writable/uploads/../../public/assets/img/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(36): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:36:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: The uploaded file has already been moved.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 142.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(38): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:39:39 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpAfdyaW" to "/var/www/html/form/writable/uploads/../../public/assets/img/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(35): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-18 18:47:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpHP24TL" to "/var/www/html/form/writable/uploads/../../public/assets/img/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(35): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:48:51 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpjKOshn" to "/var/www/html/form/writable/uploads/../../public/assets/img/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Upload.php(35): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Upload->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-18 18:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-18 18:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
